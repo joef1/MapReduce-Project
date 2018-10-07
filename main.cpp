@@ -130,7 +130,7 @@ void map_proc(std::vector<std::string> array, int maps, ProcData proc_data[])
 {
 	string sIdentifier;
 	pid_t pids[maps];
-	pid_t pid
+	pid_t pid;
 	int i;
 	int n = maps;
 
